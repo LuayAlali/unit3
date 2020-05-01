@@ -30,7 +30,8 @@
 		
 		}
 	
-		
+			.row7 > .input{
+		flex-grow: .5;
 	}
 	
 	.input,
@@ -40,24 +41,16 @@
 		margin-bottom: 10px;
 	}
 	
-	
-	
-	.group2{
-		width:  100%;
-	}
 	select{
 		flex: 1;
 	}
 	
 	
-	.row7 > .input{
-		flex-grow: .5;
-		
-		
-		
+	.group2{
+		width:  100%;
+	}
 	
-		
-		}
+	
 	h2{
 		margin-top: 74px;
 	}
