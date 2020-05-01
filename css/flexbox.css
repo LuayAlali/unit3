@@ -1,11 +1,14 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.row7 .input{
+  max-width: 50%;
+  display: block;
+}
 
 
 
-
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 	
 	.container{
 		margin:  auto;
@@ -30,22 +33,6 @@
 		
 		}
 	
-			.row7 > .input{
-		flex-grow: .5;
-	}
-	
-	.input,
-	.label
-	  {
-	flex:  1;
-		margin-bottom: 10px;
-	}
-	
-	select{
-		flex: 1;
-	}
-	
-	
 	.group2{
 		width:  100%;
 	}
@@ -58,7 +45,17 @@
 		margin-bottom: 310px;
 	}
 	
-
+.label {
+  flex-basis: 25%;
+}
+.input,
+select {
+  flex-basis: 70%;
+  flex-grow: 1;
+}
+.row7 .input {
+  max-width: 25%;
+}
 }
 
 
