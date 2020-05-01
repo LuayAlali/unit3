@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>project3</title>
+		<link href="css/normalize.css" rel="stylesheet" type="text/css">
+		<link href="css/flexbox.css" rel="stylesheet" type="text/css">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+		
+</head>
+
+<body>
+	<header class="main-header">
+
+		<h1>THE CODE REVIEW</h1>
+	</header>
+
+
+<div class="container clearfix">
+	<div class="sign-header">
+		
+	<h2>Signup for our newsletter</h2>
+	<h3>Get the latest news on how your code is doing right in your box
+</h3>
+		
+	</div>
+	
+
+	
+		<form  class="form" action="../index.html" method="post">
+	
+<!--			first fieldset .   -->
+			
+			<fieldset class="contact">
+				
+				<legend>Contact Information</legend>
+				
+				<div class="row1">
+						<label class="label" for="name">Full Name:</label>
+					<input  class="input" type="name" id="name" name="user_name"  placeholder="Required">
+					</div>
+				
+				
+				<div class="row2">
+						<label class="label" for="mail">Email Address:</label>
+					<input  class="input" type="mail" id="mail" name="user_email" placeholder="Required">
+					</div>
+						
+				
+					<div class="row3">
+						<label  class="label" for="phone">Phone Number:</label>
+					<input  class="input" type="phone" id="phone" name="user_phone" placeholder="Required">
+					</div>
+				
+						
+					<div class="row4">
+						<label class="label" for="address">Street Address:</label>
+					<input  class="input" type="address" id="address" name="user_address">
+					</div>
+						
+						
+					<div class="row5">
+						<label class="label" for="city">City:</label>
+					<input  class="input" type="city" id="city" name="user_city">
+					</div>
+						
+						
+					<div class="row6">
+						<label class="label" for="province">Province:</label>
+				<select name="province" id="province">
+					<option selected="selected">Choose Province</option>
+					<optgroup label="Province:">
+					<option value="british_columbia">British Columbia</option>
+					<option value="alberta">Alberta</option>
+					<option value="saskatchewan">Saskatchewan</option>
+					<option value="manitoba">Manitoba</option>
+					<option value="ontario">Ontario</option>
+					<option value="quebec">Quebec</option>
+					<option value="new_brunswick">New Brunswick</option>
+					<option value="nova_scotia">Nova Scotia</option>
+					<option value="prince_edward_island">Prince Edward Island</option>
+					<option value="newfoundland_labrador">Newfoundland and Labrador</option>
+				</optgroup>
+				
+				</select>
+						</div>
+					
+					<div class="row7">
+						<label class="label" for="zipcode">Zipcode:</label>
+					<input class="input" type="zipcode" id="zipcode" name="user_zipcode">
+					</div>
+						
+			</fieldset>	
+			
+			
+
+			<fieldset class="group2">
+				
+
+					<legend class="newsletter">Newsletter</legend>
+
+				<label>Select the newsletters you would like to receive</label><br>
+				<input type="checkbox" id="html" value="html_news" name="newsletter_type"><label class="check" for="html">HTML News</label><br>
+				<input type="checkbox" id="css" value="css_news" name="newsletter_type"><label class="check" for="css">CSS News</label><br>
+			<input type="checkbox" id="javascript" value="javascript_news" name="newsletter_type"><label class="check" for="javascript">Javascript News</label><br>
+
+				<label>Newsletter format</label><br>
+							<input type="radio" id="html_radio" value="html_radio" name="radio"><label for="html_radio">HTML</label><br>
+
+				<input type="radio" id="plain_text" value="plain_text" name="radio"><label for="plain_text">Plain text</label><br>
+
+
+
+	
+				<label for="feedback">Other topics you'd like to hear about</label>
+				<textarea name="user_feedback" id="feedback" ></textarea>
+			
+			</fieldset>
+	
+
+			<button type="submit">Sign Up</button>
+				
+	</form>
+		
+	
+
+	<footer><span>Copyright The Code Review</span></footer>
+	
+	
+	</div>
+	
+</body>
+</html>

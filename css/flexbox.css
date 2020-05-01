@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+@media (min-width: 769px) {
+	
+	.container{
+		margin:  auto;
+		width:  80%;
+		max-width: 1000px;
+	}
+	body{
+		display: flex;
+		
+	}
+	.contact,
+	.row1,
+	.row2,
+	.row3,
+	.row4,
+	.row5,
+	.row6,
+	.row7{
+		display: flex;
+		flex-direction:row;
+		align-items:  center;
+		
+		}
+	
+		
+	}
+	
+	.input,
+	.label
+	  {
+	flex:  1;
+		margin-bottom: 10px;
+	}
+	
+	
+	
+	.group2{
+		width:  100%;
+	}
+	select{
+		flex: 1;
+	}
+	
+	
+	.row7 > .input{
+		flex-grow: .5;
+		
+		
+		
+	
+		
+		}
+	h2{
+		margin-top: 74px;
+	}
+	footer span{
+		margin-bottom: 310px;
+	}
+	
+
+}
+
+
+
+
+
+
+
+
+	
+	
+	
