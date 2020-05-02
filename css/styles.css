@@ -103,13 +103,18 @@ button[type="submit"]
 	margin:  auto;
 	background:  #4ebbb5;
 	color: aliceblue;
+	transition: width 2s;
 	
 }
+
 
 /*click styles*/
 
 input[type="checkbox"]:checked + label{
 	font-weight:  800;
+}
+button[type="submit"]:hover{
+	width: 50%;
 }
 
 
