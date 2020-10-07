@@ -104,7 +104,8 @@ button[type="submit"]
 	background:  #4ebbb5;
 	color: aliceblue;
 	transition: width 2s;
-	
+	border: none;
+	border-radius: 5px;
 }
 
 
